@@ -7,7 +7,7 @@ import shortid from 'shortid';
 const Home = () => {
     const {user} = useContext(MyContext);
     const inputRef = useRef();
-    const [messages, setMessages] = useState([])
+    const [ messages , setMessages ] = useState()
     
     
     useEffect(() => {
